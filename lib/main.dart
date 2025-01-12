@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    print("build");
+
     return MultiBlocProvider(
       providers: [
         BlocProvider(create: (_) => AuthBloc(AuthHttpApiRepository())),
